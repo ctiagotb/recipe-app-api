@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/usr/bin/python3",
+    "python.pythonPath": "python3.7_django/bin/python",
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true,
     "python.testing.unittestArgs": [
