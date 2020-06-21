@@ -1,17 +1,19 @@
 {
   "version": "0.2.0",
   "configurations": [
+    
     {
       "name": "Python: Django",
       "type": "python",
       "request": "launch",
       "program": "${workspaceFolder}/app/manage.py",
+      "cwd": "${workspaceRoot}/app",
       "args": [
         "runserver",
         "--noreload"
       ],
       "django": true
-    },  
+    },      
     {
       "name": "Docker: Python - Django",
       "type": "docker",
